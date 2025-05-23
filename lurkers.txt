@@ -1,0 +1,263 @@
+# daily login redeems: (redeem_name)
+# first/second/third redeems: [redeem_name]
+# WIP: redeem every amount of mins/hrs: <redeem_name::1h> or <redeem_name::30m>
+
+# WIP: daily message: \message/
+# WIP: message every amount of mins/hrs: /message::1h\ or /message::30m\
+
+
+# {AND} for ANDING inside of brackets
+# {OR} for ORING inside of brackets (random selection)
+
+# WIP: nesting of {OR}s and {AND}s for example <[x1 or x2 or x3] {AND} [y1 or y2 or y3]>
+
+# 12 hours by default, if 12hrs had passed since a daily redeem it'll re-try, amongst other things
+- daily_checker: 12
+
+DopeNessMonster
+Theeldestbro
+SomniaVT (IMP CHECK)
+SkepVtuber
+sosavt
+chimeramanticore
+QueenLilithVT
+Mireya_Ocelot
+offbeatKIKI
+JuneFembug
+SerafinaFell
+EnderPeachLive
+Jerma985
+deegee2009
+PossiblyAwesom
+Kana_Fuyuko
+LadyBeemer
+emmature_
+AllisonBoballison <30m::Snoot Boop::2h>
+naomi3984
+Ellie_is_Lost
+meat
+meerkatmiki
+martindebuer
+MizuAkane
+collectionrevolution
+blerdyotome
+Nyekomei
+JustDashYT
+sp00kette (Daily Star)
+hypnoshark
+clampshell
+RileyTheZomboi
+TaigaTan
+SussyBnuuy (Daily Kissies)
+Oceonax
+KitsuneRS
+ZeroNyxia
+mymelodyx_o
+MissMarakar
+TauTassieTiger
+Aalta_
+LunarRabbot
+ScootlesDoodles (Say hi)
+Raespark
+grasskidd
+ufomie (daily abduction!)
+CodeChannel <30m::Ara Ara~>
+Sznthetic
+Deogi_Webb <30m::DRINK>
+nyx_night121
+PeachyKeentsune
+FrogoTheFroggo
+SickWhiteTiger
+DeanBratwurst
+SyddersLMAO
+Red_Gambit
+Dandyfloss
+ALTRA <30m::EUR EUR EUR::2h>
+NuwaCeres
+ColourlessQueen
+NPCeelie
+virtuebro
+kk_aisa_
+Aaiza_Project (Flora Check-in)
+Cyrae_ [First] <30m::Headpats::2h>
+copygirl
+MexicanFlyer
+RejectSanity
+MistIzu
+HexagonWitch
+spicy_spykstr
+Ptera_Ghost (Daily log in)
+jarret1991
+ProxyAskew
+heckmaybe
+berylberu (clock-in)
+VomitVT (Hello!)
+dragon_of_rampage
+Nokti
+LexiVT
+Boisyn
+IvahLive <30m::Headpats::2h>
+PeachiiBleachii
+amiimaVT
+CIVSHEP
+Seraphina985
+RuRuRoi
+YunaNoire
+croc_rock
+Ophi98 <30m::Mreow~::2h {OR} 30m::Nya::2h>
+Mika_284
+6Mara_Mara9
+LunasList (Daily Cheese)
+AmethystReverie
+Hexadigital
+Eeriella
+ellyspacemantis (Bug Check!)
+ArcadiaSlays
+shroomwith_a_view
+Retro_Mana_
+slumbering_girl
+FractalFern
+ExpiredPopsicle <30m::Give me headpats::2h>
+MallDummy
+Daedei
+DonGhoulio
+VisadVision
+FullFrontalDudity
+moonthenun
+da_maul10789
+FellyVT
+Neo_Gray
+QueenOfHell_VT
+a_fallen_doll
+CurbKitsune
+GALPALAND
+Lorem_Ispum
+TsukinoFox (Daily Cookies & Milkies {AND} CookiePass)
+lunarequest
+n3rdqueen (daily check in)
+LoFiLady <Phantom Hello>
+BeautifulNova_
+SkylordZoey
+Sensuriko
+AmineCrafter101
+MithaVT (Daily Petal)
+FaelienInvader
+blandbeans23
+fleur_vt
+Eclipse_Protocol
+EmmiAkina
+GantzVT
+JunkieDoggieGirl
+SabertoothStaz
+sparrowofcups
+SorceressEna
+xGhoulsaGhostx (Daily Boop {AND} Daily Lick)
+verilydusk
+trashcangoddess
+ToniTigresse
+ThatTransKnight (Daily Candy Grab)
+ratmum
+RelicVampire
+lostme_biscuit
+heidicakes
+JustAMonsterGirl
+boowowENVT
+HanayomeK
+Soapy5296
+NinaXKatrina
+ani_meida
+emil_tanuki
+Charcoalmoth
+hexxfoxx
+ChromaKitsune (daily log in)
+GhostQueenKaye <30m::Head Pattos ^.^::2h>
+malleusdraconia21
+goddess_lucia_
+opalreflections
+miychanvt
+Loiraine <30m::Headpat Loi::2h>
+NovaLiminal
+sheenoboo <30m::Drink Tree::2h>
+kazthealien
+tearsofmana
+gabspfvr
+retroperspective_
+fibitanuki
+emikasumi
+apowm0519
+strawberriemoos
+spicynoobles
+mimi_py (Collect a piece of me)
+summerandblue <30m::Headpat::2h>
+malwirevt
+fluffythesheepp
+lunaa9288
+oyatsuchan
+HaDoaken
+SilVRwingZ
+LaviAlraune
+stepsisscarlett
+herolaha
+thesandwife
+megaradar
+lunalevada
+bratberry
+skittles_witch
+meikurai
+miakurimu
+cruelrice
+MusicalFinesse
+wasdwwasd_
+overboldkobold <30m::Boop!::2h>
+clouded_o00o
+wumbaka
+gnorxon
+theamberstar
+d3minded (Daily Floof Redeem)
+axoletty
+tanteirotana
+a_wolf_named_lucky
+bluebirdbreeze
+dynalope
+smolgrape (HELLOOOOO!!!!)
+konchjaz
+cassmakesgames
+ladyzuina
+maeveyangire
+eiocha
+ciri_vt
+epictoaster1
+sylvene_
+Alisuni
+skarlettblaze
+olithoswald
+LilyBlue53 
+heyitloki (Star Sticker)
+etoiledoll
+sablekyu (Hi! ✧)
+heather_princess
+juuzoukie
+pennylarvanna
+xspacebunnyx
+jasminehayami (Tax Evasion)
+hydrophonicstv
+zoomie_roomie
+isPixie (Daily Pixie Dust {AND} Daily D20 Roll)
+SavvyHolo <30m::Headpats::2h>
+vivicadusk (Daily boo bean)
+LesbunnyKitten <30m::Hydrate!>
+MsKittycore (Daily Pixel)
+sashakaineko (Check In!) <30m::Comfy::2h {OR} 30m::FlowerCrown::2h {OR} 30m::GooglyMoogly::2h>
+monaandchat
+akibread [FIRST {OR} SECOND {OR} THIRD {OR} FOURTH]
+experimentsharkie <30m::Headpats::2h>
+cuteherobunny (Tokudachi Checkin!)
+zenraina(Daily check in~)
+
+
+
+
+
+
+
+

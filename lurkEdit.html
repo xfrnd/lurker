@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Configuration Manager</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: #fdf6f9;
+            padding: 20px;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff0fa;
+            border: 2px solid #ffc0cb;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        tr {
+            border-bottom: 1px dashed #ffc0cb;
+        }
+        td {
+            padding: 12px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ffa3cf;
+            border-radius: 6px;
+            background: #fff;
+        }
+        .comment {
+            color: #999;
+            font-style: italic;
+        }
+        .setting input {
+            background-color: #e5f9ff;
+        }
+        .paren-round { color: #ff69b4; }
+        .paren-angle { color: #9370DB; }
+        .paren-curly { color: #00BFFF; }
+        .paren-square { color: #32CD32; }
+    </style>
+</head>
+<body>
+<h1>✨ Configuration Manager ✨</h1>
+<table id="configTable"></table>
+
+<script>
+    function stylizeParens(text) {
+        return text
+            .replace(/\((.*?)\)/g, '<span class="paren-round">($1)</span>')
+            .replace(/<(.*?)>/g, '<span class="paren-angle">&lt;$1&gt;</span>')
+            .replace(/\{(.*?)\}/g, '<span class="paren-curly">{$1}</span>')
+            .replace(/\[(.*?)\]/g, '<span class="paren-square">[$1]</span>');
+    }
+
+    $(document).ready(function () {
+        $.get('lurkers.txt', function (data) {
+            const lines = data.split(/\r?\n/);
+            const table = $('#configTable');
+            let lastLineEmpty = false;
+
+            lines.forEach(line => {
+                const trimmed = line.trim();
+
+                if (trimmed === '') {
+                    if (!lastLineEmpty) {
+                        table.append('<tr><td colspan="2">&nbsp;</td></tr>');
+                        lastLineEmpty = true;
+                    }
+                    return;
+                }
+                lastLineEmpty = false;
+
+                if (/^\s*(#|\/\/|\/\*|\*\/)/.test(trimmed)) {
+                    table.append(`<tr><td class="comment" colspan="2">${stylizeParens(trimmed)}</td></tr>`);
+                } else if (/^\s*-\s*[^:]+:\s*/.test(trimmed)) {
+                    const [key, value] = trimmed.split(/:(.+)/);
+                    table.append(`<tr class="setting"><td>${stylizeParens(key.trim())}</td><td><input type="text" value="${value.trim()}"></td></tr>`);
+                } else {
+                    table.append(`<tr><td colspan="2"><input type="text" value="${stylizeParens(trimmed)}"></td></tr>`);
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>
